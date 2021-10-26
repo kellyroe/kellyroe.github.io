@@ -1,0 +1,103 @@
+html{
+    background:wheat;
+}    
+
+h1{
+    color: rgb(139, 87, 8);
+    font-size:5em
+}
+
+
+.nav{
+    color:black;
+    background-color:rgb(170, 150, 58);
+    font-size:1.2em;
+    border:2px solid rgb(12, 36, 5);
+    padding:5px 10px;
+    text-align: right;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+    .nav:hover{
+            background-color:rgb(219, 197, 96);
+    }
+
+    .nav:active{
+            color:rgb(139, 87, 8);
+    }
+
+
+body{
+    font-size: 14px;
+    width: 80%;
+    background: wheat;
+    margin-right: auto;
+    margin-left: auto;
+    text-align:justify;
+}
+
+
+
+a{
+    font-size:1em;
+    text-decoration: none;
+}
+    
+    a:link{
+            color: rgb(139, 87, 8);
+    }
+    
+    a:hover{
+            color: rgb(219, 197, 96);
+    }
+    
+    a:visited{
+            color:rgb(139, 87, 8)
+    }
+
+h2{
+        font-size:1.8em;
+        
+}
+
+    
+p{  
+    
+    line-height: 1.5em;
+}
+
+
+ul{
+    line-height: 2em;
+}
+
+ol{
+    line-height:2em;
+}
+
+#container{
+        width: 100%;
+        margin: auto;
+        background-color: rgb(243, 217, 169);
+        border: 2px solid rgb(139, 87, 8);
+        padding: 15px;
+
+}
+
+#subcontainer{
+        width: 95%;
+        margin: auto;
+        background-color: wheat;
+        border: 2px solid rgb(139, 87, 8);
+        padding: 15px;
+}
+
+#dou{
+    color:rgb(139,87,8);
+}
+
+.par{
+    color:rgb(6, 70, 9);
+}
