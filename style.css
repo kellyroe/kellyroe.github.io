@@ -1,48 +1,126 @@
 html{
-    background:wheat;
-}    
+    background: black;
+}   
+
+header{background: black;
+    width: 100%;
+    padding-top: 8%; 
+    padding-bottom: 0%;
+    padding-left: 0;
+    padding-right: 0%;
+
+}
 
 h1{
     color: rgb(139, 87, 8);
     font-size:5em
 }
 
-
-.nav{
-    color:black;
-    background-color:rgb(170, 150, 58);
-    font-size:1.2em;
-    border:2px solid rgb(12, 36, 5);
-    padding:5px 10px;
-    text-align: right;
-    cursor: pointer;
-    text-decoration: none;
-    display: inline-block;
+h2{
+    font-size:1.8em;
+    color: rgb(139, 87, 8);
+    
 }
 
-    .nav:hover{
-            background-color:rgb(219, 197, 96);
-    }
+h3{
+    color: rgb(139,87,8);
+}
 
-    .nav:active{
-            color:rgb(139, 87, 8);
-    }
+h4{color:rgb(139, 87, 8);
+}
+
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 17%; 
+    padding-right: 17%;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    left: 0%;
+    right: 0%;
+    display: fixed; 
+}
+
+nav li{float: left;
+    
+}
+
+nav li a, .dropbtn{
+    
+    display: block;
+    color:  rgb(139,87,8);
+    text-align: center;
+    padding: 6px 10px;
+    text-decoration: none;
+    border-left: 1px solid rgb(139, 87, 8);
+    border-right: 1px solid rgb(139, 87, 8);
+    border-bottom: 1px solid rgb(139, 87, 8);
+    border-top: 1px solid rgb(139, 87, 8);
+    background-color: black;
+    
+}
+
+nav li a:hover, .dropdown:hover .dropbtn{
+    background-color: black;
+    color:rgb(219, 197, 96);
+    
+}
+
+nav li.dropdown{
+    display: block;
+
+}
+
+nav .dropdown-content{
+    display: none;
+    position: fixed;
+    min-width: 120px;
+    background-color: black;
+    box-shadow: 0px 8px 16px 0px rgba (0,0,0,0.2);
+    z-index: 1}
+
+nav .dropdown-content a{
+    color: rgb(139, 87, 8);
+    padding: 6px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: black;
+        
+}
+
+
+nav .dropdown-content a:hover{
+    background-color: black;
+    color:rgb(219, 197, 96);
+    
+}
+
+nav .dropdown:hover .dropdown-content{ 
+    display: block;
+    position: fixed;
+}
 
 
 body{
+
     font-size: 14px;
-    width: 80%;
-    background: wheat;
+    width: 65%;
+    background: black;
     margin-right: auto;
     margin-left: auto;
-    text-align:justify;
+    margin-top: 0%;
+    text-align: justify;
 }
 
 
 
-a{
+a, a:visited{
     font-size:1em;
-    text-decoration: none;
+    color:rgb(139, 87, 8);
 }
     
     a:link{
@@ -53,51 +131,49 @@ a{
             color: rgb(219, 197, 96);
     }
     
-    a:visited{
-            color:rgb(139, 87, 8)
-    }
-
-h2{
-        font-size:1.8em;
-        
-}
-
-    
-p{  
-    
-    line-height: 1.5em;
-}
-
-
-ul{
-    line-height: 2em;
-}
-
-ol{
-    line-height:2em;
-}
-
 #container{
-        width: 100%;
+        width: 60;
         margin: auto;
-        background-color: rgb(243, 217, 169);
+        background-color:black;
         border: 2px solid rgb(139, 87, 8);
-        padding: 15px;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top:   0%;
+        padding-bottom: 0%;
 
 }
 
 #subcontainer{
-        width: 95%;
+        width: 40;
         margin: auto;
-        background-color: wheat;
+        background-color:black;
         border: 2px solid rgb(139, 87, 8);
-        padding: 15px;
+        padding-left: 10%;
+        padding-right: 10%;
 }
+
+p{  
+    
+    line-height: 1.5em;
+    color: rgb(139, 87, 8);
+}
+
+
+
+
+ul, li{
+    line-height:2em;
+    color: rgb(139, 87, 8);
+}
+
 
 #dou{
-    color:rgb(139,87,8);
+    color:rgb(139, 87, 8);
 }
 
-.par{
-    color:rgb(6, 70, 9);
+#hp{
+    float: right;
+    margin: 2% 2% 2% 2%;
 }
+
+
