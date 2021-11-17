@@ -12,19 +12,19 @@ header{background: rgb(26, 25, 25);
 }
 
 h1{
-    color: rgb(56, 26, 5);
-    font-size:4em
+    color: rgb(116, 55, 12);
+    font-size:5em
 }
 
 h2{
-    font-size:1.8em;
-    color: rgb(34, 34, 124);
+    font-size:2em;
+    color: rgb(69, 69, 165);
     
 }
 
 h3{
-    color:rgb(7, 77, 7);
-    font-size:1.4em;
+    color:rgb(57, 88, 57);
+    font-size:1.5em;
 }
 
 h4{color:rgb(95, 50, 95);
@@ -66,7 +66,7 @@ nav li a, .dropbtn{
 
 nav li a:hover, .dropdown:hover .dropbtn{
     background-color: rgb(26, 25, 25);
-    color:rgb(219, 197, 96);
+    color:rgb(184, 167, 93);
     
 }
 
@@ -96,7 +96,7 @@ nav .dropdown-content a{
 
 nav .dropdown-content a:hover{
     background-color: rgb(26, 25, 25);
-    color:rgb(219, 197, 96);
+    color:rgb(184, 167, 93);
     
 }
 
@@ -129,10 +129,10 @@ a, a:visited{
     }
     
     a:hover{
-            color: rgb(219, 197, 96);
+            color: rgb(184, 167, 93);
     }
     
-#container{
+.container{
         width: 60;
         margin: auto;
         background-color: rgb(26, 25, 25);
@@ -144,7 +144,7 @@ a, a:visited{
 
 }
 
-#subcontainer{
+.subcontainer{
         width: 40;
         margin: auto;
         background-color:rgb(26, 25, 25);
