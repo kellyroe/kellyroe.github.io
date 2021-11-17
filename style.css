@@ -12,18 +12,19 @@ header{background: rgb(26, 25, 25);
 }
 
 h1{
-    color: red;
-    font-size:5em
+    color: rgb(97, 15, 15);
+    font-size:3em
 }
 
 h2{
     font-size:1.8em;
-    color: blue;
+    color: rgb(64, 64, 192);
     
 }
 
 h3{
-    color:green;
+    color:rgb(8, 94, 8);
+    font-size:1.4em;
 }
 
 h4{color:violet;
@@ -168,7 +169,7 @@ ul, li{
 
 
 #dou{
-    color:rgb(182, 7, 129);
+    color:rgb(156, 35, 120);
 }
 
 #hp{
