@@ -1,5 +1,6 @@
 html{
     background: rgb(26, 25, 25);
+    font-family: garamond; 
 }   
 
 header{background: rgb(26, 25, 25);
@@ -9,6 +10,17 @@ header{background: rgb(26, 25, 25);
     padding-left: 0;
     padding-right: 0%;
 
+}
+
+body{
+
+    font-size: 15px;
+    width: 65%;
+    background: rgb(26, 25, 25);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0%;
+    text-align: justify;
 }
 
 h1{
@@ -105,21 +117,7 @@ nav .dropdown:hover .dropdown-content{
     position: fixed;
 }
 
-
-body{
-
-    font-size: 15px;
-    width: 65%;
-    background: rgb(26, 25, 25);
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 0%;
-    text-align: justify;
-}
-
-
-
-a, a:visited{
+    a:visited{
     font-size:1em;
     color:rgb(139, 87, 8);
 }
@@ -169,13 +167,7 @@ ul, li{
 
 
 #dou{
-    color:rgb(116, 18, 86);
-}
-
-#hp{
-    
-    float: right;
-    margin: 2% 2% 2% 2%;
+    color:rgb(144, 156, 33);
 }
 
 
