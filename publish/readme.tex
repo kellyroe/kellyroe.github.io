@@ -2,12 +2,22 @@ This folder  is going to be a repository for the PDF's that are published.
 
 The PDFs kept in here are simple copies of PDF files that are generated and kept in other locations.
 
-Other locations are documents/working/articles and documents/working/reports and documents/working/cv
+Other locations include: 
+- documents/working/articles and 
+- documents/working/reports and 
+- documents/working/cv
 
 I need to manually place new or altered (e.g., recompiled) PDFs into this location and push any changes to Git in order for them to actually publish.
 
-The main benefit of having this file is:
+The main benefit of having this folder with it's location is:
 
-(1) one convenient place where the files published on the net are to be kept
- 
-(2) pushing the files to Git will create an online location.  I need to figure out the relative file path information to generate functioning links (e.g., cv.pdf will contain internal working links to 2003:1.pdf)
+(1) one convenient place where the PDF files published on the net are to be kept
+
+(2) pushing the files to Git will itself create an online location for relative file paths that I can use inside the PDF documents themselves.
+
+(3)  e.g., of an absolute file path:  https://kellyroe.github.io/publish/2023.cv
+
+(4) e.g., of a relative file path (to anything kept inside this particular folder):
+<a href="2023:1.pdf">Should work</a> 
+
+(5) use relative file paths so the 'publish' folder is portable.  Don't change the name of any of the PDF's or the location else the links will break!
